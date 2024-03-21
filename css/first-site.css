@@ -474,6 +474,10 @@ html{
     .about-content .text{
         width: 350px;
     }
+    
+    .contact .info h2 {
+        font-size: 28px;
+    }
 }
 .about-content .text p:first-of-type{
     font-weight: bold;
