@@ -468,6 +468,12 @@ html{
 }
 .about-content .text{
     width: 450px;
+
+}
+@media (max-width:767px) {
+    .about-content .text{
+        padding-left: 50px;
+    }
 }
 .about-content .text p:first-of-type{
     font-weight: bold;
