@@ -195,6 +195,11 @@ html{
         transform: translate(-50% , -130%) !important;
     }
 }
+@media (min-width:1400px){
+    .landing{
+        background-position-y: -250px;
+    }
+}
 .landing .container{
     display: flex;
     justify-content: center;
