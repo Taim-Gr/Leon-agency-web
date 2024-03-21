@@ -180,25 +180,27 @@ html{
     background-image: url(../Images/ayyappa-vardhan-DrDa9LYf4uo-unsplash.jpg);
     height: calc(100vh - 70px);
     max-width: 100%;
-    /* background-size: cover; */
+    background-size: cover;
     /* background-position-x: center; */
-    background-position-y: -300px;
+    /* background-position-y: -300px; */
     background-repeat: no-repeat;
     position: relative;
 }
 @media (max-width:767px) {
-    .landing{
-        background-size: cover;
-        background-position-x: -200px;
-    }
+     .landing{
+        background-position-x: center;
+    } 
     .landing .container .intro-text{
         transform: translate(-50% , -130%) !important;
     }
 }
 @media (min-width:1400px){
     .landing{
-        background-position-y: -250px;
+        background-position-y: -250px !important;
     }
+    .landing .container .intro-text{
+        top: 35% !important;
+    } 
 }
 .landing .container{
     display: flex;
@@ -224,7 +226,7 @@ html{
     animation-fill-mode: both;
     opacity: 1;
     margin: 0;
-    padding-bottom: 10px;
+    
 }
 
  @keyframes tran{ 
@@ -246,7 +248,7 @@ html{
 }
 .landing .container .intro-text p{
     color: #2c4755;;
-    text-shadow: 4px 4px 5px white;
+    font-weight: 500;
     font-size: 20px;
 }
 /* End landing */
