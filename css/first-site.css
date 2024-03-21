@@ -474,6 +474,12 @@ html{
     .about-content .text{
         width: 350px;
     }
+    p:not(.landing p){
+        width: 350px;  
+    }
+    .specail-heading {
+        font-size: 72px;
+    }
     
     .contact .info h2 {
         font-size: 28px;
