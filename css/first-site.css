@@ -383,7 +383,6 @@ html{
 .Portfolio img{
     width: 340px;
     height: 300px;
-    margin-left: 10px;
 }
 .Portfolio-content{
     margin-top: 60px;
@@ -393,19 +392,20 @@ html{
 }
 .Portfolio-content .card{
     background-color: white;
-    padding: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-bottom: 10px ;
+    width: 340px;
 }
 .Portfolio-content .card h4{
    font-weight: 800;
    font-size: 18px;
    color: #1f2021;
    margin: 15px 0 15px;
+   padding: 10px;
 }
 .Portfolio-content .card p{
     line-height: 1.8;
     color: var(--secondry-color);
+    padding: 10px;
 }
 .btn{
     padding-top: 50px;
