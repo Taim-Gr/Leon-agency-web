@@ -186,6 +186,15 @@ html{
     background-repeat: no-repeat;
     position: relative;
 }
+@media (max-width:767px) {
+    .landing{
+        background-size: cover;
+        background-position-x: -200px;
+    }
+    .landing .container .intro-text{
+        transform: translate(-50% , -130%) !important;
+    }
+}
 .landing .container{
     display: flex;
     justify-content: center;
