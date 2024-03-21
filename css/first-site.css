@@ -381,7 +381,7 @@ html{
     margin-right: auto;
 }
 .Portfolio img{
-    width: 340px;
+    max-width: 100%;
     height: 300px;
 }
 .Portfolio-content{
@@ -393,7 +393,6 @@ html{
 .Portfolio-content .card{
     background-color: white;
     padding-bottom: 10px ;
-    width: 340px;
 }
 .Portfolio-content .card h4{
    font-weight: 800;
@@ -510,7 +509,7 @@ html{
         width: 350px;
     }
     p:not(.landing p){
-        width: 350px; 
+        /* width: 350px;  */
         padding-left: 5px; 
     }
     .specail-heading {
@@ -585,7 +584,3 @@ footer{
 footer div span{
     color: var(--main-color);
 }
-
-
-
-
