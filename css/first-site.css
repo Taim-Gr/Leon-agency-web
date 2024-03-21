@@ -381,8 +381,9 @@ html{
     margin-right: auto;
 }
 .Portfolio img{
-    width: 360px;
+    width: 340px;
     height: 300px;
+    margin-left: 10px;
 }
 .Portfolio-content{
     margin-top: 60px;
@@ -393,6 +394,8 @@ html{
 .Portfolio-content .card{
     background-color: white;
     padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .Portfolio-content .card h4{
    font-weight: 800;
