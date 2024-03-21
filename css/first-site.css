@@ -167,11 +167,9 @@ html{
     transition: .3s;
 }
 .heading .links ul li:hover a{
-    border-bottom: 1px solid var(--secondry-color);
+    border-bottom: 1px solid #2c4755;
+    /* border-left: 10px solid var(--main-color); */
     padding-left: 25px;
-}
-.heading .links ul li:last-child:hover a{
-    border: none;
 }
 /* End heading */
 /* Start Landing */
