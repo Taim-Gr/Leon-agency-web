@@ -209,11 +209,28 @@ html{
     text-align: center;
 }
 .landing .container .intro-text{
-    width: 340px;
+    width: 350px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+}
+.landing .container .intro-text h2 span{
+    display: inline-block;
+    animation-name: letter-move;
+    animation-delay: 1.2s;
+    animation-duration: .4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+}
+@keyframes letter-move {
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
 }
 .landing .container .intro-text h2{
     font-size: 55px;
@@ -228,6 +245,7 @@ html{
     margin: 0;
     
 }
+
 
  @keyframes tran{ 
     0%{
